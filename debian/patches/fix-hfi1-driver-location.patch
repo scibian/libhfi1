@@ -1,0 +1,21 @@
+Description: Change location of hfi1 driver in libibverbs config
+ The hfi1 libibverbs driver is installed under /usr/lib/libibverbs. That location
+ is consitent with the one used by the mlx4 driver on Debian. This patch corrects
+ the location in the libibverbs driver config.
+ .
+ libhfi1 (0.5-27-1ifs) UNRELEASED; urgency=medium
+ .
+     * Imported libhfi1-0.5-27 from IFS 10.5.0.0.155 upstream.
+ .
+Author: Brian T. Smith <bsmith@systemfabricworks.com>
+Copyright: 2017 System Fabric Works, Inc. All Rights Reserved.
+Forwarded: not-needed
+Last-Update: <2017-09-21>
+
+---
+
+--- a/hfi1.driver
++++ b/hfi1.driver
+@@ -1 +1 @@
+-driver hfi1verbs
++driver /usr/lib/libibverbs/libhfi1verbs

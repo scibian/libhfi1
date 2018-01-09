@@ -1,0 +1,40 @@
+libhfi1 (0.5.27-1ifs+c9u1) calibre9; urgency=medium
+
+  * Use version 0.5.27-1ifs+c9-1 instead of 0.5-27-1ifs+c9-1. The old version
+    was 0.5.24 and 0.5-27-1ifs+c9-1 makes upgrades painful.
+
+ -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Tue, 09 Jan 2018 08:45:08 +0100
+
+libhfi1 (0.5-27-1ifs+c9-1) calibre9; urgency=medium
+
+  * Upload to calibre9
+
+ -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Thu, 21 Sep 2017 15:10:03 -0500
+
+libhfi1 (0.5-27-1ifs) UNRELEASED; urgency=medium
+
+  * Imported libhfi1-0.5-27 from IFS 10.5.0.0.155 upstream.
+  * Driver location changed to /usr/lib/libibverbs.
+  * libhfi1-static package name changed to libhfi1-dev.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 21 Sep 2017 15:10:03 -0500
+
+libhfi1 (0.5-24-1ifs) UNRELEASED; urgency=medium
+
+  * Convert to quilt. Corrected version.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Wed, 12 Jul 2017 18:21:18 -0500
+
+libhfi1 (0.5.1) UNRELEASED; urgency=medium
+
+  * Import libhfi1-0.5 from IFS 10.3.0.0.81.
+  * Configure with valgrind.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 16 Dec 2016 18:27:35 -0600
+
+libhfi1 (0.5) UNRELEASED; urgency=medium
+
+  * Import libhfi1-0.5 from IFS 10.2.0.0.158.
+  * Replaces libhfi1verbs and libhfi1verbs-dev
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 30 Sep 2016 19:16:35 -0500

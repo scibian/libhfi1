@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+#
+# Copyright (c)2016 System Fabric Works, Inc. All Rights Reserved,
+#
+
+export DEB_BUILD_MAINT_OPTIONS=hardening=+all
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_clean:
+
+
+override_dh_auto_configure:
+	./autogen.sh
+	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --libdir=/usr/lib --with-valgrind
+
+override_dh_strip:
+	dh_strip --dbg-package=libhfi1-dbg
+
+override_dh_installdocs:
+	dh_installdocs --link-doc=libhfi1
+
+override_dh_makeshlibs:
