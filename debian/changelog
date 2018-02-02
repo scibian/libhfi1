@@ -1,15 +1,16 @@
-libhfi1 (0.5.27-1ifs+c9u1) calibre9; urgency=medium
+libhfi1 (0.5-27-3ifs+deb9) UNRELEASED; urgency=medium
 
-  * Use version 0.5.27-1ifs+c9-1 instead of 0.5-27-1ifs+c9-1. The old version
-    was 0.5.24 and 0.5-27-1ifs+c9-1 makes upgrades painful.
+  * Branch for stretch.
 
- -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Tue, 09 Jan 2018 08:45:08 +0100
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 02 Feb 2018 13:13:10 -0600
 
-libhfi1 (0.5-27-1ifs+c9-1) calibre9; urgency=medium
+libhfi1 (0.5-27-2ifs) UNRELEASED; urgency=medium
 
-  * Upload to calibre9
+  * Use git packaging and pristine-tar.
+  * Remove dependency on valgrind.
+  * Zero-out cmd structure in hfi1_modify_qp.
 
- -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Thu, 21 Sep 2017 15:10:03 -0500
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 14 Dec 2017 19:14:01 -0600
 
 libhfi1 (0.5-27-1ifs) UNRELEASED; urgency=medium
 

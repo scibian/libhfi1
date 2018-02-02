@@ -1,0 +1,18 @@
+Description: Do not copy uninitialized data in ibv_cmd_modify_qp
+Author: Brian T. Smith <bsmith@systemfabricworks.com>
+Author: Yishai Hadas <yishaih@mellanox.com>
+Origin: https://github.com/linux-rdma/rdma-core/commit/b1c9b6aa22fb91507fb1a63df99566da7720315f#diff-b5b0c36907b6e5ded630b848c3354be4
+Last-Update: <2017-12-12>
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/src/verbs.c
++++ b/src/verbs.c
+@@ -407,7 +407,7 @@
+ int hfi1_modify_qp(struct ibv_qp *qp, struct ibv_qp_attr *attr,
+ 		    int attr_mask)
+ {
+-	struct ibv_modify_qp cmd;
++	struct ibv_modify_qp cmd = {};
+ 
+ 	return ibv_cmd_modify_qp(qp, attr, attr_mask, &cmd, sizeof cmd);
+ }

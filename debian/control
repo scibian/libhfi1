@@ -2,22 +2,22 @@ Source: libhfi1
 Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
 Section: libs
 Priority: extra
-Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9),
- libibverbs-dev,
- valgrind,
- quilt,
- autoconf,
- automake,
- libtool
+Standards-Version: 3.9.8
+Homepage: http://www.intel.com
+Build-Depends: autoconf,
+               automake,
+               debhelper (>= 10),
+               dh-autoreconf,
+               libibverbs-dev,
+               libtool,
+               quilt,
 
 Package: libhfi1
 Architecture: linux-any
-Depends: ${shlibs:Depends},
- ${misc:Depends},
- libibverbs1 (>=1.1.8)
-Conflicts: libhfi1verbs
-Replaces: libhfi1verbs
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Conflicts: libhfi1verbs,
+Replaces: libhfi1verbs,
 Description: Intel Omni-Path HFI Userspace Driver
  libhfi1 provides a device-specific userspace driver for Intel Host
  Fabric interface cards.  This driver is designed for use with the
@@ -26,22 +26,12 @@ Description: Intel Omni-Path HFI Userspace Driver
 Package: libhfi1-dev
 Architecture: linux-any
 Section: libdevel
-Depends: ${misc:Depends},
- libhfi1 (=${binary:Version})
-Conflicts: libhfi1verbs-dev,
- libhfi1-static
-Replaces: libhfi1verbs-dev,
- libhfi1-static
+Depends: libhfi1 (=${binary:Version}),
+         ${misc:Depends},
+Conflicts: libhfi1-static,
+           libhfi1verbs-dev,
+Replaces: libhfi1-static,
+          libhfi1verbs-dev,
 Description: Development files for the libhfi1 driver
  Static version of libhfi1 that may be linked directly to an
  application, which may be useful for debugging.
-
-Package: libhfi1-dbg
-Architecture: linux-any
-Section: debug
-Depends: ${misc:Depends},
- libhfi1 (=${binary:Version})
-Description: Debugging symbols for the libpsm2 library
- libhfi1 provides a device-specific userspace driver for Intel Host
- Fabric interface cards.  This driver is designed for use with the
- libibverbs library.
