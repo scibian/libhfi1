@@ -1,3 +1,9 @@
+libhfi1 (0.5.27-3ifs+deb9sci9+opa10.6u3) scibian9+opa10.6; urgency=medium
+
+  * Use a point in the version because older packages versions used one
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Thu, 19 Apr 2018 10:22:46 +0200
+
 libhfi1 (0.5-27-3ifs+deb9sci9+opa10.6u2) scibian9+opa10.6; urgency=medium
 
   * Scibian Packaging conventions
