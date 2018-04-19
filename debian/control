@@ -1,9 +1,11 @@
 Source: libhfi1
-Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
+Maintainer: Scibian Project <packaging@scibian.org>
 Section: libs
 Priority: extra
 Standards-Version: 3.9.8
 Homepage: http://www.intel.com
+Vcs-Git: https://github.com/scibian/libhfi1.git
+Vcs-Browser: https://github.com/scibian/libhfi1
 Build-Depends: autoconf,
                automake,
                debhelper (>= 10),
