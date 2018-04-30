@@ -1,3 +1,10 @@
+libhfi1 (0.5-27-3ifs+deb9sci9+opa10.6u4) scibian9+opa10.6; urgency=medium
+
+  * Revert to upstream "-" in the version. Upgrade from scibian8 will
+    need an administrator action.
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Mon, 30 Apr 2018 15:45:41 +0200
+
 libhfi1 (0.5.27-3ifs+deb9sci9+opa10.6u3) scibian9+opa10.6; urgency=medium
 
   * Use a point in the version because older packages versions used one
