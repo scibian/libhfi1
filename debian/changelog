@@ -1,21 +1,15 @@
-libhfi1 (0.5-27-4ifs+deb8sci8+opa10.8u1) scibian8+opa10.8; urgency=medium
-
- * Scibian Packaging conventions.
-
- -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 19 Feb 2019 12:11:32 +0100
-
-libhfi1 (0.5-27-4ifs+deb8) jessie; urgency=medium
+libhfi1 (0.5-27-4ifs+deb9) stretch; urgency=medium
 
   * Install to multi-arch directory.
   * Use hardening flags.
 
- -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 18 Oct 2018 14:12:44 -0500
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 25 Oct 2018 17:08:31 -0500
 
-libhfi1 (0.5-27-3ifs+deb8) jessie; urgency=medium
+libhfi1 (0.5-27-3ifs+deb9) stretch; urgency=medium
 
-  * Add deb8 version suffix.
+  * Branch for stretch.
 
- -- Brian T. Smith <bsmith@systemfabricworks.com>  Tue, 29 May 2018 15:18:28 -0500
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 02 Feb 2018 13:13:10 -0600
 
 libhfi1 (0.5-27-2ifs) jessie; urgency=medium
 

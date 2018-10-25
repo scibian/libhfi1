@@ -4,7 +4,7 @@ Description: Change location of hfi1 driver in libibverbs config
  the location in the libibverbs driver config.
 Author: Brian T. Smith <bsmith@systemfabricworks.com>
 Forwarded: not-needed
-Last-Update: <2018-05-23>
+Last-Update: <2018-10-25>
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/hfi1.driver
