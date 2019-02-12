@@ -1,3 +1,10 @@
+libhfi1 (0.5-27-4ifs+deb9) stretch; urgency=medium
+
+  * Install to multi-arch directory.
+  * Use hardening flags.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 25 Oct 2018 17:08:31 -0500
+
 libhfi1 (0.5-27-3ifs+deb9sci9+opa10.7u1) scibian9+opa10.7; urgency=medium
 
   * Scibian9 Release with opa10.7
@@ -29,13 +36,13 @@ libhfi1 (0.5-27-3ifs+deb9sci9+opa10.6u1) scibian9+opa10.6; urgency=medium
 
  -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Wed, 18 Apr 2018 18:30:36 +0200
 
-libhfi1 (0.5-27-3ifs+deb9) UNRELEASED; urgency=medium
+libhfi1 (0.5-27-3ifs+deb9) stretch; urgency=medium
 
   * Branch for stretch.
 
  -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 02 Feb 2018 13:13:10 -0600
 
-libhfi1 (0.5-27-2ifs) UNRELEASED; urgency=medium
+libhfi1 (0.5-27-2ifs) jessie; urgency=medium
 
   * Use git packaging and pristine-tar.
   * Remove dependency on valgrind.
@@ -43,7 +50,7 @@ libhfi1 (0.5-27-2ifs) UNRELEASED; urgency=medium
 
  -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 14 Dec 2017 19:14:01 -0600
 
-libhfi1 (0.5-27-1ifs) UNRELEASED; urgency=medium
+libhfi1 (0.5-27-1ifs) jessie; urgency=medium
 
   * Imported libhfi1-0.5-27 from IFS 10.5.0.0.155 upstream.
   * Driver location changed to /usr/lib/libibverbs.
@@ -51,20 +58,20 @@ libhfi1 (0.5-27-1ifs) UNRELEASED; urgency=medium
 
  -- Brian T. Smith <bsmith@systemfabricworks.com>  Thu, 21 Sep 2017 15:10:03 -0500
 
-libhfi1 (0.5-24-1ifs) UNRELEASED; urgency=medium
+libhfi1 (0.5-24-1ifs) jessie; urgency=medium
 
   * Convert to quilt. Corrected version.
 
  -- Brian T. Smith <bsmith@systemfabricworks.com>  Wed, 12 Jul 2017 18:21:18 -0500
 
-libhfi1 (0.5.1) UNRELEASED; urgency=medium
+libhfi1 (0.5.1) jessie; urgency=medium
 
   * Import libhfi1-0.5 from IFS 10.3.0.0.81.
   * Configure with valgrind.
 
  -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 16 Dec 2016 18:27:35 -0600
 
-libhfi1 (0.5) UNRELEASED; urgency=medium
+libhfi1 (0.5) jessie; urgency=medium
 
   * Import libhfi1-0.5 from IFS 10.2.0.0.158.
   * Replaces libhfi1verbs and libhfi1verbs-dev
