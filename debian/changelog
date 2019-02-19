@@ -1,3 +1,9 @@
+libhfi1 (0.5-27-4ifs+deb8sci8+opa10.8u1) scibian8+opa10.8; urgency=medium
+
+ * Scibian Packaging conventions.
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Tue, 19 Feb 2019 12:11:32 +0100
+
 libhfi1 (0.5-27-4ifs+deb8) jessie; urgency=medium
 
   * Install to multi-arch directory.
