@@ -6,6 +6,7 @@ Files: *
 Copyright: 2013-2017 Intel Corporation
            2007 QLogic Corp
            2005 PathScale, Inc.
+           2018 Scibian Project <legal@scibian.org>
 License: GPL-2 or BSD-3-clause
 
 Files: debian/*

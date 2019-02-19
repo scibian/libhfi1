@@ -1,5 +1,5 @@
 Source: libhfi1
-Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
+Maintainer: Scibian Project <packaging@scibian.org>
 Section: libs
 Priority: extra
 Standards-Version: 3.9.6
@@ -11,6 +11,8 @@ Build-Depends: autoconf,
                libibverbs-dev,
                libtool,
                quilt,
+Vcs-Git: https://github.com/scibian/libhfi1.git
+Vcs-Browser: https://github.com/scibian/libhfi1
 
 Package: libhfi1
 Architecture: linux-any
