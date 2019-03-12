@@ -1,2 +1,0 @@
-etc/libibverbs.d/hfi1.driver
-usr/lib/libhfi1verbs-rdmav2.so               /usr/lib/libibverbs/
