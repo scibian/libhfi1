@@ -15,7 +15,7 @@ Build-Depends: autoconf,
                quilt,
 
 Package: libhfi1
-Architecture: amd64
+Architecture: linux-any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
 Conflicts: libhfi1verbs,
@@ -26,7 +26,7 @@ Description: Intel Omni-Path HFI Userspace Driver
  libibverbs library.
 
 Package: libhfi1-dev
-Architecture: amd64
+Architecture: linux-any
 Section: libdevel
 Depends: libhfi1 (=${binary:Version}),
          ${misc:Depends},
