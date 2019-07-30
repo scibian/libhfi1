@@ -1,2 +1,0 @@
-fix-hfi1-driver-location.patch
-fix-ibv_cmd_modify_qp-uninit.patch
