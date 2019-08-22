@@ -1,3 +1,10 @@
+libhfi1 (0.5-27-4ifs+deb8sci8+opa10.9u1) scibian8+opa10.9; urgency=medium
+
+  * New release for scibian8+opa10.9
+  * Bump scibian copyright year
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Tue, 20 Aug 2019 14:44:12 +0200
+
 libhfi1 (0.5-27-4ifs+deb8sci8+opa10.8u1) scibian8+opa10.8; urgency=medium
 
  * Scibian Packaging conventions.
