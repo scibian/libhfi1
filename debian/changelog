@@ -1,3 +1,9 @@
+libhfi1 (0.5-27-4ifs+deb9sci10+opa10.9u1) scibian10+opa10.9; urgency=medium
+
+  * New release for scibian10 
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Thu, 30 Jan 2020 14:51:02 +0100
+
 libhfi1 (0.5-27-4ifs+deb9sci9+opa10.9u1) scibian9+opa10.9; urgency=medium
 
   * Ne upstream for version opa10.9 .
