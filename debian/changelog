@@ -1,3 +1,21 @@
+libhfi1 (0.5-27-4ifs+deb8sci8opa10.10u1) scibian8opa10.10; urgency=medium
+
+  [ Nicolas Meaux ]
+  * Import Upstream version 0.5-27
+
+  [ Thomas HAMEL ]
+  * Import Upstream version 0.5-27
+
+  [ M'hamed Bouaziz ]
+  * Import Upstream version 0.5-27
+  * Scibian Project package
+  *  Scibian8+OPA10.8 Release 0.5-27-4ifs+deb8sci8+opa10.8u1
+  * Import Upstream version 0.5-27
+
+  [ MHamed Bouaziz ]
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Fri, 24 Jul 2020 17:59:20 +0200
+
 libhfi1 (0.5-27-4ifs+deb8) jessie; urgency=medium
 
   * Install to multi-arch directory.
